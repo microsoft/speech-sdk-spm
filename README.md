@@ -4,7 +4,7 @@ This repository provides Swift Package Manager (SPM) support for the Microsoft C
 
 ## Overview
 
-The Speech SDK enables speech-to-text, text-to-speech, translation, speaker recognition, and other speech AI capabilities powered by Azure AI Speech.
+The Speech SDK enables speech-to-text, text-to-speech, translation, and other speech AI capabilities powered by Azure AI Speech.
 
 This repository contains the Swift Package Manager package definition and distribution artifacts needed to consume the Speech SDK from Apple applications.
 
