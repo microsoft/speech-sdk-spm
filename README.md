@@ -12,12 +12,18 @@ This repository contains the Swift Package Manager package definition and distri
 
 In Xcode:
 
-1. Select **File > Add Package Dependencies**
-2. Enter the repository URL
+1. Select **File > Add Package Dependencies...**
+2. Enter the repository URL `https://github.com/microsoft/speech-sdk-spm`
 3. Choose the desired version
-4. Add the package to your target
+4. When Xcode shows package products, select **only one** product and add it to your app target:
+	- **MicrosoftCognitiveServicesSpeech-iOS**: Standard iOS SDK
+	- **MicrosoftCognitiveServicesSpeechEmbedded-iOS**: iOS SDK with on-device (embedded) speech
+	- **MicrosoftCognitiveServicesSpeech-macOS**: Standard macOS SDK
+
+Important: Do not add multiple products from this package to the same app target.
 
 ## Usage
 
 ```swift
 import MicrosoftCognitiveServicesSpeech
+```
