@@ -27,3 +27,13 @@ Important: Do not add multiple products from this package to the same app target
 ```swift
 import MicrosoftCognitiveServicesSpeech
 ```
+
+## Samples
+
+Objective-C and Swift end-to-end samples are maintained in the Speech SDK samples repository:
+
+- [Azure-Samples/cognitive-services-speech-sdk](https://github.com/Azure-Samples/cognitive-services-speech-sdk)
+
+If a sample references an older Speech SDK package version, update the package dependency to the latest release from this repository before building.
+
+This repository is for Swift Package Manager packaging and distribution only.
