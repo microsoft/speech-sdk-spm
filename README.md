@@ -24,8 +24,18 @@ Important: Do not add multiple products from this package to the same app target
 
 ## Usage
 
+Import the SDK in your source:
+
+**Swift**
+
 ```swift
 import MicrosoftCognitiveServicesSpeech
+```
+
+**Objective-C**
+
+```objc
+#import <MicrosoftCognitiveServicesSpeech/SPXSpeechApi.h>
 ```
 
 ## Samples
