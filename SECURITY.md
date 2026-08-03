@@ -12,3 +12,7 @@ please review the latest guidance for Microsoft repositories at
 [https://aka.ms/SECURITY.md](https://aka.ms/SECURITY.md).
 
 <!-- END MICROSOFT SECURITY.MD BLOCK -->
+
+This process applies to this repository, including the Swift package definition and distribution artifacts.
+
+For potential vulnerabilities, use MSRC reporting channels only. Do not use public GitHub issues, discussions, or pull requests.

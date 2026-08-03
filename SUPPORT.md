@@ -1,25 +1,42 @@
-# TODO: The maintainer of this repo has not yet edited this file
-
-**REPO OWNER**: Do you want Customer Service & Support (CSS) support for this product/project?
-
-- **No CSS support:** Fill out this template with information about how to file issues and get help.
-- **Yes CSS support:** Fill out an intake form at [aka.ms/onboardsupport](https://aka.ms/onboardsupport). CSS will work with/help you to determine next steps.
-- **Not sure?** Fill out an intake as though the answer were "Yes". CSS will help you decide.
-
-*Then remove this first heading from this SUPPORT.MD file before publishing your repo.*
-
 # Support
 
-## How to file issues and get help  
+## How to file issues and get help
 
-This project uses GitHub Issues to track bugs and feature requests. Please search the existing 
-issues before filing new issues to avoid duplicates.  For new issues, file your bug or 
-feature request as a new Issue.
+### Azure support tickets
 
-For help and questions about using this project, please **REPO MAINTAINER: INSERT INSTRUCTIONS HERE 
-FOR HOW TO ENGAGE REPO OWNERS OR COMMUNITY FOR HELP. COULD BE A STACK OVERFLOW TAG OR OTHER
-CHANNEL. WHERE WILL YOU HELP PEOPLE?**.
+Customers with an [Azure support plan](https://azure.microsoft.com/support/options/) can open an [Azure support ticket](https://azure.microsoft.com/support/create-ticket/).
+Use this option for production-impacting issues, service-side incidents, account or quota problems, and billing or subscription concerns.
 
-## Microsoft Support Policy  
+### GitHub issues
 
-Support for this **PROJECT or PRODUCT** is limited to the resources listed above.
+Use [GitHub Issues](https://github.com/microsoft/speech-sdk-spm/issues) in this repository for problems specific to this Swift package, such as:
+
+- Package installation via Swift Package Manager
+- Package product selection and target integration
+- Package metadata, binary target URL/checksum, or release packaging issues
+
+Before filing, please search existing issues to avoid duplicates.
+
+### Objective-C and Swift SDK issues (non-SPM)
+
+If your issue is about Speech SDK behavior or APIs in Objective-C or Swift (for example recognition, synthesis, authentication, audio I/O, runtime errors, or sample behavior), file it in the Speech SDK samples repository:
+
+- [Azure-Samples/cognitive-services-speech-sdk issues](https://github.com/Azure-Samples/cognitive-services-speech-sdk/issues)
+
+This `speech-sdk-spm` repository should only be used for Swift Package Manager packaging and distribution issues.
+
+### Usage questions and service guidance
+
+For general Azure AI Speech usage questions, see:
+
+- [Azure AI Speech documentation](https://learn.microsoft.com/azure/ai-services/speech-service/)
+- [Microsoft Q&A for Azure](https://learn.microsoft.com/answers/products/azure)
+
+### Security issues
+
+Please do not report security vulnerabilities in public issues.
+See [SECURITY.md](./SECURITY.md) for the correct reporting process.
+
+## Microsoft Support Policy
+
+Support for this repository is limited to the resources listed above.
