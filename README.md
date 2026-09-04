@@ -47,3 +47,4 @@ Objective-C and Swift end-to-end samples are maintained in the Speech SDK sample
 If a sample references an older Speech SDK package version, update the package dependency to the latest release from this repository before building.
 
 This repository is for Swift Package Manager packaging and distribution only.
+
