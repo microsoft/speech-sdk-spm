@@ -35,18 +35,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MicrosoftCognitiveServicesSpeech-iOS",
-            url: "https://csspeechstorage.blob.core.windows.net/drop/1.53.0/MicrosoftCognitiveServicesSpeech-XCFramework-1.53.0.zip",
-            checksum: "0595535e6e4fdaadd30c4651817e66ddd5392db05db4f94fe3a6c68e8dca9a6f"
+            url: "https://csspeechstorage.blob.core.windows.net/drop/1.53.1/MicrosoftCognitiveServicesSpeech-XCFramework-1.53.1.zip",
+            checksum: "19711152517bce630f083e3080e8703e4946cf5aaf29d793efcefbec60820226"
         ),
         .binaryTarget(
             name: "MicrosoftCognitiveServicesSpeech-macOS",
-            url: "https://csspeechstorage.blob.core.windows.net/drop/1.53.0/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-1.53.0.zip",
-            checksum: "e07ac31d67b92e2ec57ed3ee1ae8fa3e779f1f60a7fbce33cd0097fe19507021"
+            url: "https://csspeechstorage.blob.core.windows.net/drop/1.53.1/MicrosoftCognitiveServicesSpeech-MacOSXCFramework-1.53.1.zip",
+            checksum: "5d1c858ce135db215942ec4bb8281d0725a8668c4cf3dfbb30f0b3f980ac42e3"
         ),
         .binaryTarget(
             name: "MicrosoftCognitiveServicesSpeechEmbedded-iOS",
-            url: "https://csspeechstorage.blob.core.windows.net/drop/1.53.0/MicrosoftCognitiveServicesSpeech-EmbeddedXCFramework-1.53.0.zip",
-            checksum: "0952343fdbd524948bb05964d20851e848a5e0a2d468d52ae23b91d27994cfff"
+            url: "https://csspeechstorage.blob.core.windows.net/drop/1.53.1/MicrosoftCognitiveServicesSpeech-EmbeddedXCFramework-1.53.1.zip",
+            checksum: "6c685e10d068705225c6a4530757ff4b9f5756bd04d7f437876f68d41f9175dd"
         )
     ]
 )
